@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /**/
 
@@ -8,6 +9,7 @@ header {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    width: 1440px;
 }
 
 nav {
@@ -22,7 +24,7 @@ header img#logo:hover {
     opacity: 1;
 }
 
-a {
+nav a {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -33,7 +35,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+nav a::before {
     content: "";
     background-color: #EA9010;
     width: 10px;
@@ -59,4 +61,99 @@ a::before {
 
 #logo {
     box-shadow: 5px 5px 0px #000;
+}
+
+section {
+    display: block;
+}
+
+.banner {
+    background-image: url(../assets/img/banner.jpg);
+    width: 1440px;
+    height: 787px;
+    border-bottom: 10px solid #000;
+    position: absolute;
+    padding-right: 40px;
+}
+
+.pixel {
+    width: 951px;
+    height: 787px;
+    position: absolute;
+    border-right: 5px solid #000;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P';
+    background-color: #3a4042;
+    width: 627px;
+    height: 184px;
+    box-shadow: 10px 10px 0;
+    margin: 116px 237px 38px 85px;
+    opacity: 0.9;
+}
+
+.title:hover {
+    opacity: 1;
+}
+
+div.banner h1 {
+    color: #EA9010;
+    margin: 0px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 14px;
+    text-shadow: 4px 4px #000;
+}
+
+div.banner h2 {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 14px;
+    text-shadow: 4px 4px #000;
+}
+
+a#downloadButton {
+    display: inline-block;
+    background-color: #EA9010;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    text-decoration: none;
+    margin-left: 161px;
+}
+
+a#contactButton {
+    display: inline-block;
+    background-color: #EA9010;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin-right: 0px;
+    text-decoration: none;
+    margin-left: 112px;
+}
+
+a#downloadButton:hover {
+    color: #EA9010;
+    background-color: #fff;
+}
+
+a#contactButton:hover {
+    color: #EA9010;
+    background-color: #fff;
 }
