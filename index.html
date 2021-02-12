@@ -4,31 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/components/title.css">
+    <link rel="stylesheet" type="text/css" href="css/components/subtitle.css">
+    <link rel="stylesheet" type="text/css" href="css/components/box.css">
+    <link rel="stylesheet" type="text/css" href="css/components/button.css">
+    <link rel="stylesheet" type="text/css" href="css/components/action.css">
+    <link rel="stylesheet" type="text/css" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+
 </head>
 
 <body>
-    <header id="cabecalho">
-        <img id="logo" src="assets/img/logo.jpg" alt="Ícone do portfólio">
+    <header class="header">
+        <img class="logo" src="assets/img/logo.jpg" alt="Ícone do portfólio">
         <nav>
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
-            <a id="button" href="" lang="en">Download CV</a>
+            <a class="action" href="" la class="action" ng="en">Skills</a class="action">
+            <a class="action" href="">Projetos</a class="action">
+            <a class="action" href="">Sobre</a>
+            <a class="action" href="">Contatos</a>
+            <a class="button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <div class="banner">
-        <div class="pixel">
-            <div class="title">
-                <h1>Paulo Souza</h1>
-                <h2>FrontEnd Developer</h2>
+
+    <section class="banner">
+        <div class="wrapper">
+            <div class="box">
+                <h1 class="title">Paulo Souza</h1>
+                <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
-            <a href="" id="downloadButton"> Download CV</a>
-            <a href="" id="contactButton"> Contatos</a>
+            <div class="navigation">
+                <a class="button" href="" lang="en">Download CV</a>
+                <a class="button" href="">Contato</a>
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
