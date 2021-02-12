@@ -1,0 +1,16 @@
+.header {
+    background-color: #37371F;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    box-shadow: 5px 5px 0px #000;
+    opacity: 0.5;
+}
+
+.logo:hover {
+    opacity: 1;
+}
