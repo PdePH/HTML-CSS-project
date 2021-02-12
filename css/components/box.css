@@ -9,3 +9,7 @@
 .box .title {
     margin-bottom: 28px;
 }
+
+.box:hover {
+    transform: scale(1.1);
+}
