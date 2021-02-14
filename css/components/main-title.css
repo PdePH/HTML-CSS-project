@@ -3,10 +3,11 @@
     font-size: 40px;
     color: #EA9010;
     text-shadow: 4px 4px 0px #000;
+    margin-bottom: 20px;
 }
 
 .main-title.-second {
-    color: #fff;
+    color: #37371F;
     text-shadow: none;
     text-align: center;
     margin-bottom: 40px;
