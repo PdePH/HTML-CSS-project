@@ -1,0 +1,8 @@
+.wrapper-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-logo {
+    padding: 5px;
+}
