@@ -6,7 +6,8 @@ body,
 a,
 h1,
 h2,
-h3 {
+h3,
+figure {
     margin: 0;
     box-sizing: border-box;
 }
