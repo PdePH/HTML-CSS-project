@@ -4,11 +4,11 @@ const elements = document.querySelector('.elements');
 let pixels = 0;
 
 buttonRight.addEventListener('click', function() {
-    pixels = pixels - 100;
+    if (pixels == -600) { return; } else { pixels = pixels - 100; }
     elements.style = `transform: translateX(${pixels}px);`;
 });
 
 buttonLeft.addEventListener('click', function() {
-    pixels = pixels + 100;
+    if (pixels == 0) { return; } else { pixels = pixels + 100; }
     elements.style = `transform: translateX(${pixels}px);`;
 });
