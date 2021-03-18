@@ -193,17 +193,17 @@
     </section>
 
 
-    <form class="main-form">
+    <form class="main-form" action="https://formspree.io/f/xjvpnney" method="POST">
         <Legend class="main-title -second">Contato</Legend>
 
         <label class="main-label" for="input-name">Nome</label>
-        <input class="main-input" id="input-name" type="text" required>
+        <input class="main-input" id="input-name" name="name" type="text" required>
 
         <label class="main-label" for="input-email">E-mail</label>
-        <input class="main-input" id="input-email" type="email" placeholder="exemplo@exemplo.com" required>
+        <input class="main-input" id="input-email" name="_replyto" type="email" placeholder="exemplo@exemplo.com" required>
 
         <label class="main-label" for="input-text-area">Mensagem</label>
-        <textarea class="main-input -textarea" id="input-text-area" required></textarea>
+        <textarea class="main-input -textarea" name="message" id="input-text-area" required></textarea>
 
         <button class="main-button -form-submit" type="submit">Enviar</button>
     </form>
