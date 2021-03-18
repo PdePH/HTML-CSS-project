@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
 
 </head>
@@ -186,9 +189,20 @@
         </section>
     </section>
 
-    <section id="contact" class="main-section -contact">
-        <h2 class="main-title -second">Contato</h2>
-    </section>
+
+    <form class="main-form">
+        <Legend class="main-title -second">Contato</Legend>
+        <label class="main-label" for="input-name">Nome</label>
+        <input class="main-input" id="input-name" type="text">
+
+        <label class="main-label" for="input-email">E-mail</label>
+        <input class="main-input" id="input-email" type="email" placeholder="exemplo@exemplo.com">
+
+        <label class="main-label" for="input-text-area">Mensagem</label>
+        <textarea class="main-input -textarea" id="input-text-area"></textarea>
+
+        <button class="main-button -form-submit" type="submit">Enviar</button>
+    </form>
 
     <script src="js/components/main-carousel.js"></script>
 

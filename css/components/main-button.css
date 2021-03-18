@@ -17,3 +17,16 @@
     color: #EA9010;
     background-color: #fff;
 }
+
+.main-button.-form-submit {
+    background-color: #37371F;
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    cursor: pointer;
+}
+
+.main-button.-form-submit:hover {
+    background-color: #37371F;
+    color: #fff
+}
